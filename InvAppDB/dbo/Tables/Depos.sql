@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Depos]
+(
+	[Id] INT IDENTITY(1,1) NOT NULL 
+	CONSTRAINT [PK_Depos] PRIMARY KEY CLUSTERED ([ID] ASC), 
+    [DepoName] NVARCHAR(MAX) NOT NULL, 
+    [Address] NVARCHAR(MAX) NOT NULL
+)
